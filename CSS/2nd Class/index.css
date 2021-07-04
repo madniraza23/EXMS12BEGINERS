@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'MERAYFONTS';
+    src: url(./Assets/fonts/Courgette-Regular.ttf);
+}
+
+/* universal selector */
+* {
+    background-color: #ffb997;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+h1, h2, h3 {
+    font-family: 'MERAYFONTS', 'Arial';
+}
+
+
+/* DIRECT CHILD */
+
+
+/* DESCENDANT */
+h1 a {
+    background-color: rgba(220, 20, 60, 0.7);
+    color: wheat;
+    padding: 20px;
+}
+
+h1 + h2 {
+    background-color: tomato;
+    color: white;
+}
+
+h1 ~ p {
+    border: tomato 2px solid;
+}

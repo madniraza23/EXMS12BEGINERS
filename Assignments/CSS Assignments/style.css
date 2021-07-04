@@ -1,0 +1,24 @@
+.similarity {
+    border: 3px solid crimson;
+    width: 150px;
+    margin: 50px auto 20px auto;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#div1 {
+    background-color: rgb(138, 167, 138);
+}
+
+#div2 {
+    background-color: rgb(200, 200, 149);
+}
+
+#div3 {
+    background-color: lightsalmon;
+}
+
+#div4 {
+    background-color: rgb(137, 182, 182);
+}

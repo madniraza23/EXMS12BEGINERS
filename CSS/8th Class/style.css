@@ -1,0 +1,25 @@
+ :root {
+     --background: rgb(124, 85, 85);
+     --myPadding: 15px 0px;
+     --fontColor: yellow; 
+ }
+ 
+ 
+ .div1 {
+     background: var(--background);
+     padding: var(--myPadding);
+     color: var(--fontColor)
+ }
+
+ .div2 {
+    background: brown;
+    padding: var(--myPadding);
+    color: var(--fontColor)
+}
+
+.div3 {
+    background: burlywood;
+    padding: var(--myPadding);
+    color: var(--fontColor)
+}
+

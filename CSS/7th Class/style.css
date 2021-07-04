@@ -1,0 +1,15 @@
+.mainbody {
+    border: red 4px solid;
+}
+
+.header {
+    background-color: tomato;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.showcase {
+    border: springgreen 4px solid;
+}

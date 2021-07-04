@@ -1,0 +1,95 @@
+/* {
+    
+    position: relative
+    position: absolute
+    position: fixed
+    postion: sticky
+    top: 0
+    bottom: 10px
+} */
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: darkslategray;
+    color: darkkhaki;
+    padding: 20px;
+    text-align: center;
+}
+
+ol {
+    list-style:none;
+}
+
+ul {
+    background-color: darkkhaki;
+    text-align: center;
+    list-style:none;
+    height: 20px;
+}
+
+ul > li {
+    margin-left: 40px;
+    display: inline;
+}
+
+ul > li:hover {
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
+
+ol li {
+    background-color: brown;
+    display: none;
+    width: 20%;
+    position: relative;
+    left: 280px;
+    overflow: auto;
+}
+ul > li:hover ol li {
+    display: block;
+}
+
+.box1 {
+    width: 20%;
+    float: left;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.box2 {
+    width: 20%;
+    float: left;
+    border: 2px solid brown;
+    margin: 5px;
+}
+
+.box3 {
+    width: 20%;
+    float: left;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.box4 {
+    width: 20%;
+    float: left;
+    border: 2px solid yellow;
+    margin: 5px;
+}
+
+@media (max-width: 375px) {
+    .box1, .box2, .box3, .box4 {
+        float: none;
+        width: 80%;
+        margin: 10px auto;
+    }
+}

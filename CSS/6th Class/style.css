@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: hotpink;
+    --pane-padding: 5px 42px;
+  }
+
+.container {
+    border: solid 2px var(--main-color);
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity */
+.container::before {
+    content: '';
+    background-image: url(https://wallpapercave.com/wp/wp7512360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    background-position: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 387px){
+    .container {
+        flex-direction: column;
+        justify-content:center;
+    }
+}
